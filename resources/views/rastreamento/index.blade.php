@@ -3,6 +3,14 @@
 @section('content')
     <div class="container py-5">
 
+        @if (session('status'))
+            <div class="py-2">
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            </div>
+        @endif
+
         <div class="mb-3">
             <a id="atualizar-tabela" href="#/" class="btn btn-success float-left">Atualizar tabela</a>
             <a href="{{ asset('/rastreamentos/create') }}" class="btn btn-primary float-right">Cadastrar URL</a>

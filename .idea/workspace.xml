@@ -7,6 +7,7 @@
     <list default="true" id="c9c84c8d-0a10-42ab-b141-116984fe7a9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Commands/RotinaRastreamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/RotinaRastreamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RastreamentoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RastreamentoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/rastreamento/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/rastreamento/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644490874434</updated>
-      <workItem from="1644490876736" duration="19076000" />
+      <workItem from="1644490876736" duration="19496000" />
     </task>
     <servers />
   </component>

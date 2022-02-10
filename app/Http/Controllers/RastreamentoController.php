@@ -29,7 +29,7 @@ class RastreamentoController
 
         Rastreamento::firstOrCreate(array_merge(['user_id' => auth()->id()], $validated));
 
-        return redirect()->route('rastreamentos.index');
+        return redirect()->route('rastreamentos.index')->with('status', 'URL cadastrada para rastreamento!');
     }
 
     public function show(int $id)
