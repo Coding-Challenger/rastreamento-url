@@ -45,6 +45,7 @@ class RotinaRastreamento extends Command
                 $response = Http::get($rastreamento->url);
                 $rastreamento->body = $response->body();
                 $rastreamento->status_code = $response->status();
+                $rastreamento->updated_at = now();
                 $rastreamento->save();
 
             } catch (\Exception $exception) {
