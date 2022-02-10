@@ -47,7 +47,7 @@
                     return data ? parseInt(data) : ' ';
                 }},
                 {data: 'updated_at', render: function(data, type, row){
-                    return data !== null ? (new Date(data)).toLocaleString() : 'Site ainda não rastreado';
+                    return row.status_code !== null ? (new Date(data)).toLocaleString() : 'Site não rastreado e/ou inválido';
                 }},
                 {data: 'id', render: function(data, type, row){
                     let url = '<a href="/rastreamentos/' + data + ' "><i class="fa-solid fa-eye"></i></a>'
